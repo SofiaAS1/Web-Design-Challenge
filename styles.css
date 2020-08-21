@@ -1,4 +1,12 @@
+p {
+  margin: 20px;
+}
 
+img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
 .col-lg-1 {
 background: lightgrey
 }
@@ -11,5 +19,9 @@ background: lightgrey
 .display-4 {
   color: teal;
   font-weight: bold;
+  margin:15px
 }
 
+.navbar-light .navbar-brand {
+  color:white
+}

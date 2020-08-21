@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">   
+  <title>WeatherPy</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="index.html">LATITUDE</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <div class="dropdown">
+              <button class="btn dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Plots
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+                <a class="dropdown-item" href="#!">Humidity</a>
+                <a class="dropdown-item" href="#!">Temperature</a>
+                <a class="dropdown-item" href="#!">Wind Speed</a>
+              </div>
+            </div>
+            
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Comparision</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Data</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="row">
+        <div class="col-lg-7 lg-secondary">
+          <h1 class="display-4">Humidity</h1>
+          <hr>
+          <img class="w-75 center" target="_blank" src="assets/citylat_vs_humidity.png" alt="Humidity Map">
+          <p>                                                    </p>
+          <p>City Latitude vs Humidity shows a relatively distributed spread, with no distinct relationship, 
+              but less humidity variability at the extreme latitude poles.</p>
+        </div>
+        <div class="col-lg-1"></div>
+
+        <div class="col-lg-4 lg-secondary">
+            <h1 class="display-4">Visualizations</h1>
+            <div class="row">
+              <div class="col-md-4">
+                <div class="thumbnail">
+                  <img src="assets/citylat_vs_cloudiness.png" alt="Cloud Map" class="img-thumbnail">
+                  <a class="caption" href="cloudiness.html">Cloudiness</a>
+                  </div>
+                  </div>
+              <div class="col-md-4">
+                  <div class="thumbnail">
+                    <img src="assets/citylat_vs_humidity.png" alt="Humidity Map" class="img-thumbnail">
+                      <a class="caption" href="humidity.html">Humidity</a>
+                    </div>
+                  </div>
+                  </div>
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="thumbnail">
+                    <img src="assets/citylat_vs_maxtemp.png" alt="Tempurature Map" class="img-thumbnail">
+                      <a class="caption" href="cloudiness.html">Temperature</a>
+                    </div>
+                    </div>
+                <div class="col-md-4">
+                    <div class="thumbnail">
+                      <img src="assets/citylat_vs_windspeed.png" alt="Wind Map" class="img-thumbnail">
+                        <a class="caption" href="cloudiness.html">Wind Speed</a>
+                      </div>
+                </div>
+          </div>
+          </div>
+          </div>
+          
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+crossorigin="anonymous"></script>
+</body>
+
+</html>
