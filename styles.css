@@ -1,0 +1,15 @@
+
+.col-lg-1 {
+background: lightgrey
+}
+.navbar-brand {
+  font-size: 24px;
+  font-weight: bold;
+  background-color: teal;
+  color: white;
+}
+.display-4 {
+  color: teal;
+  font-weight: bold;
+}
+

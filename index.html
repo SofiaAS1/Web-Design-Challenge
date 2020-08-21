@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
     integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">   
   <title>WeatherPy</title>
 </head>
 
@@ -41,19 +42,19 @@
     </div>
   </nav>
 <div class="row">
-  <div class="col-lg-7 bg-secondary">
-    <h1 class="display-4">Summary: Latitude vs X</h1>
+  <div class="col-lg-7 lg-secondary">
+    <h1 class="display-4">Summary: Latitude vs. X</h1>
     <hr>
-    <img class="w-25 float-left" target="_blank" src="assets/citylat_vs_maxtemp.png" alt="Tempurature Map">
-
+    <img class="w-30 float-left" target="_blank" src="assets/citylat_vs_maxtemp.png" alt="Tempurature Map">
+    <p>                                                    </p>
     <p>The purpose of this project was to analyze how weather changes as you move closer to the equator. To accomplish
       this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities
       randomized across multiple different latitudes on the globe.</p>
     <p>After assembling the dataset, we used Matplotlib to plot various aspects of weather vs latitude. Factors we
       looked at included:</p>
     <ul>
-      <li>Cloudiness</li>
-      <li>Humidity</li>
+      <li>Cloudiness</li> 
+      <li>Humidity</li> 
       <li>Temperature</li>
       <li>Wind Speed</li>
     </ul>
@@ -61,29 +62,47 @@
       and descriptions of any trends and correlations witnessed.</p>
   </div>
 <div class="col-lg-1"></div>
-<div class="col-lg-4 bg-secondary">
-  <h1 class="display-4">Visualization</h1>
+
+<div class="col-lg-4 lg-secondary">
+  <h1 class="display-4">Visualizations</h1>
   <div class="row">
-    <div class="col-md-4">
+    <div class="col-md-6">
       <div class="thumbnail">
         <img src="assets/citylat_vs_cloudiness.png" alt="Cloudy Map" class="img-thumbnail">
+        <div class="caption">
+          <h3>Cloudiness</h3>
         </div>
-    <div class="col-md-12">
+        </div>
+        </div>
+    <div class="col-md-6">
         <div class="thumbnail">
           <img src="assets/citylat_vs_humidity.png" alt="Humidity Map" class="img-thumbnail">
+          <div class="caption">
+            <h3>Humidity</h3>
+          </div>
+        </div>
+        </div>
         </div>
     <div class="row">
-      <div class="col-md-8">
+      <div class="col-md-6">
         <div class="thumbnail">
           <img src="assets/citylat_vs_maxtemp.png" alt="Tempurature Map" class="img-thumbnail">
+          <div class="caption">
+            <h3>Temperature</h3>
           </div>
-      <div class="col-md-12">
+          </div>
+          </div>
+      <div class="col-md-6">
           <div class="thumbnail">
             <img src="assets/citylat_vs_windspeed.png" alt="Wind Map" class="img-thumbnail">
+            <div class="caption">
+              <h3>Wind Speed</h3>
+            </div>
       </div>
 </div>
 </div>
 </div>
+
   <!-- <section>
     <h1>WeatherPy</h1>
     <article> -->
@@ -117,7 +136,7 @@
       </a>
       <p><em><strong>Wind Map</strong></em></p>
     </article>  -->
-  </section>
+  <!-- </section> -->
 
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
