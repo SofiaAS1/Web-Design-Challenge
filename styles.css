@@ -1,6 +1,23 @@
 p {
   margin: 20px;
 }
+h1 {
+  color: teal;
+  font-family:"Arial Black", Gadget, sans-serif;
+  font-weight:bold;
+  margin:15px;
+}
+
+h2 {
+color: black;
+font-size: 24px;
+margin:15px;
+}
+h3 {
+  color: teal;
+  font-weight:bold;
+text-align:center;
+}
 
 img {
   margin-left: auto;
