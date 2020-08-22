@@ -21,6 +21,11 @@ background: lightgrey
   font-weight: bold;
   margin:15px
 }
+.col-lg-12 {
+  color:teal;
+  font-weight: bolder;
+  margin:15px;
+}
 
 .navbar-light .navbar-brand {
   color:white
