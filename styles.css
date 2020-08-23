@@ -1,5 +1,8 @@
 p {
-  margin: 20px;
+  margin: 25px;
+}
+ul {
+  list-style-position: inside;
 }
 h1 {
   color: teal;
@@ -13,6 +16,7 @@ color: black;
 font-size: 24px;
 margin:15px;
 }
+
 h3 {
   color: teal;
   font-weight:bold;
@@ -23,6 +27,12 @@ img {
   margin-left: auto;
   margin-right: auto;
   display: block;
+  padding: 3px;
+
+}
+img:hover {
+  box-shadow: 0 0 2px 1px teal(0, 140, 186, 0.5);
+  border: 3px solid teal;
 }
 .col-lg-1 {
 background: lightgrey
@@ -43,7 +53,17 @@ background: lightgrey
   font-weight: bolder;
   margin:15px;
 }
-
 .navbar-light .navbar-brand {
   color:white
 }
+.caption {
+  color:teal;
+  font-weight: bold;
+  text-align:center;
+  margin:46px
+}
+
+@media (max-width: 600px) {
+  .nav {
+    background-color: teal;
+  }

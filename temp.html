@@ -44,12 +44,14 @@
         <div class="col-lg-7 lg-secondary">
           <h1 class="display-4">Temperature</h1>
           <hr>
-          <img class="w-65 center" target="_blank" src="assets/citylat_vs_maxtemp.png" alt="Temperature Map">
-          <p>                                                    </p>
+          <article>
+              <a target="_blank" href="assets/citylat_vs_maxtemp.png">
+          <img class="w-65 center" target="_blank" src="assets/citylat_vs_maxtemp.png" alt="Temperature Map"></a>
           <p>City latitude vs Max Temperature scatter plot shows there is a bell curve distribution between Southern-most 
               & Northern-most latitudes and temperature. However, the peak of the distribution is not the equator, but 
               around °20 lat, in other words, as city latitudes became further distributed north/ south from °20 lat, 
               outside a couple outliers, the temperature dipped lower.</p>
+              </article>
         </div>
         <div class="col-lg-1"></div>
 
@@ -58,32 +60,33 @@
             <hr>
             <div class="row">
               <div class="col-md-4">
-                <div class="thumbnail">
-                  <img src="assets/citylat_vs_cloudiness.png" alt="Cloud Map" class="img-thumbnail">
+                <div id="images">
+                  <a href="cloudiness.html"><img width= "200px" src="assets/citylat_vs_cloudiness.png" alt="Latitude vs. Cloudiness" class="imageNav-photo"></a>
                   <a class="caption" href="cloudiness.html">Cloudiness</a>
+          </div>
+              </div>
+          <div class="col-md-4">
+            <div id="images">
+                  <a href="humidity.html"><img width= "200px" src="assets/citylat_vs_humidity.png" alt="Latitude vs. Humidity" class="imageNav-photo"></a>
+                  <a class="caption" href="humidity.html">Humidity</a> 
+                </div>
                   </div>
-                  </div>
-              <div class="col-md-4">
-                  <div class="thumbnail">
-                    <img src="assets/citylat_vs_humidity.png" alt="Humidity Map" class="img-thumbnail">
-                      <a class="caption" href="humidity.html">Humidity</a>
-                    </div>
-                  </div>
-                  </div>
+            </div>
+            <br>
               <div class="row">
                 <div class="col-md-4">
-                  <div class="thumbnail">
-                    <img src="assets/citylat_vs_maxtemp.png" alt="Tempurature Map" class="img-thumbnail">
-                      <a class="caption" href="temp.html">Temperature</a>
-                    </div>
-                    </div>
-                <div class="col-md-4">
-                    <div class="thumbnail">
-                      <img src="assets/citylat_vs_windspeed.png" alt="Wind Map" class="img-thumbnail">
-                        <a class="caption" href="windspeed.html">Wind Speed</a>
-                      </div>
+                  <div id="images">
+                    <a href="temp.html"><img width= "200px" src="assets/citylat_vs_maxtemp.png" alt="Latitude vs. Temperature" class="imageNav-photo"></a>
+                    <a class="caption" href="temp.html">Temperature</a>
+                  </div>
                 </div>
-          </div>
+                <div class="col-md-4">
+                  <div id="images">
+                    <a href="windspeed.html"><img width= "200px" src="assets/citylat_vs_windspeed.png" alt="Latitude vs. Wind Speed" class="imageNav-photo"></a>
+                    <a class="caption" href="windspeed.html">Wind Speed</a>  
+                  </div>
+                </div>
+                </div>
           </div>
           </div>
           
