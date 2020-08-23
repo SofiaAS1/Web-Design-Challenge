@@ -1,3 +1,6 @@
+body {
+  background:lightgray;
+}
 p {
   margin: 25px;
 }
@@ -34,8 +37,14 @@ img:hover {
   box-shadow: 0 0 2px 1px teal(0, 140, 186, 0.5);
   border: 3px solid teal;
 }
+img:visited{
+  box-shadow: 0 0 2px 1px teal(0, 140, 186, 0.5);
+  border: 3px solid teal;
+  border-color: teal;
+}
+
 .col-lg-1 {
-background: whitesmoke
+background: lightgray
 }
 .navbar-brand {
   font-size: 24px;
@@ -48,6 +57,19 @@ background: whitesmoke
   font-weight: bold;
   margin:15px
 }
+.col-lg-6 {
+background: white;
+}
+.col-lg-3 {
+  background: white;
+}
+.col-lg-4 {
+  background: white;
+}
+.col-lg-8 {
+  background:white;
+}
+
 .col-lg-12 {
   color:teal;
   font-weight: bolder;
@@ -63,11 +85,10 @@ background: whitesmoke
   margin-right: auto;
   display:block;
   text-align:center;
-  margin:46px
 }
 
 @media (max-width: 600px) {
-  .bg-light {
+  .bg-white {
     background-color: teal !important;
 }
 .caption {
