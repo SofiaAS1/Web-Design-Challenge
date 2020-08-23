@@ -59,11 +59,23 @@ background: lightgrey
 .caption {
   color:teal;
   font-weight: bold;
+  margin-left: auto;
+  margin-right: auto;
+  display:block;
   text-align:center;
   margin:46px
 }
 
 @media (max-width: 600px) {
-  .nav {
-    background-color: teal;
-  }
+  .bg-light {
+    background-color: teal !important;
+}
+.caption {
+  color:teal;
+  font-weight: bold;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  text-align:center;
+}
+}
